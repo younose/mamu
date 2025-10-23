@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <div className="site-header">
       <div className="container">
-        <h1> My Awesome Website</h1>
+        <h1> MA Mamba'ul Ulum Margoyoso</h1>
         <nav>
           <ul className="nav-list">
             <li>

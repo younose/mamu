@@ -11,7 +11,7 @@ export default function Home() {
           alt={"example image"}
         />
         <section className="intro">
-          <h2> Welcome to My Website</h2>
+          <h2> Welcome to MA Mamba'ul Ulum Margoyoso</h2>
           <p>
             This is a simple React website to demonstrate how to use components.
             Each part of the page is a separate component.

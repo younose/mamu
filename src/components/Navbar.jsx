@@ -3,7 +3,11 @@ import { useState } from "react";
 export default function Navbar() {
   const [mode, setMode] = useState("dark");
   function handleMode() {
-    mode = "dark" ? setMode("light") : setMode("dark");
+    if ((mode = "dark")) {
+      setMode("light");
+    } else if ((mode = "light")) {
+      setMode("dark");
+    }
   }
   return (
     <div className="site-header">

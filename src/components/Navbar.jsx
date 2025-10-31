@@ -1,4 +1,10 @@
+import { useState } from "react";
+
 export default function Navbar() {
+  const [mode, setMode] = useState("dark");
+  function handleMode() {
+    mode = "dark" ? setMode("light") : setMode("dark");
+  }
   return (
     <div className="site-header">
       <div className="container">
@@ -13,6 +19,9 @@ export default function Navbar() {
             </li>
             <li>
               <a href="#contact"> Contact </a>
+            </li>
+            <li>
+              <button onClick={handleMode}>{mode}</button>
             </li>
           </ul>
         </nav>

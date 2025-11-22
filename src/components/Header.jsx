@@ -61,7 +61,7 @@ function Header() {
         </nav>
         <div>
           <a className="login-btn" href="#">
-            Semua Aplikasi
+            Aplikasi Madrasah
           </a>
           <a className="login-btn" style={{ marginLeft: "5px" }} href="#">
             Login

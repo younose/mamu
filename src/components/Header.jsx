@@ -60,7 +60,7 @@ function Header() {
           </ul>
         </nav>
         <div>
-          <a className="login-btn" href="#">
+          <a className="login-btn" href="https://app.mamu.sch.id">
             Aplikasi Madrasah
           </a>
           <a className="login-btn" style={{ marginLeft: "5px" }} href="#">

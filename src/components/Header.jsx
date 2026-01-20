@@ -28,42 +28,33 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#">Statistik</a>
-            </li>
-            <li>
-              <a href="#">Mutasi Guru</a>
-            </li>
-            <li>
-              <a href="#">Kode Mapel</a>
-            </li>
-            <li>
-              <a href="#">BI</a>
-            </li>
-
-            {/* DROPDOWN */}
-            <li className="dropdown">
-              <a href="#" className="dropbtn">
-                Informasi ▾
+              <a href="https://masmambaululummargoyoso.literasi-digital7.id/">
+                Literasi MAMU
               </a>
-              <ul className="dropdown-content">
-                <li>
-                  <a href="#">Berita</a>
-                </li>
-                <li>
-                  <a href="#">Pengumuman</a>
-                </li>
-                <li>
-                  <a href="#">Agenda</a>
-                </li>
-              </ul>
             </li>
+            <li>
+              <a href="https://masmambaululummargoyoso.literasi-digital7.id/tetaplah-menuntut-ilmu-hingga-akhir-hayat/">
+                Karya Guru
+              </a>
+            </li>
+            <li>
+              <a href="https://apps.mamu.sch.id/">Recent App</a>
+            </li>
+            <li>
+              <a href="https://emyumart.my.id/">EMYU Mart</a>
+            </li>
+            {/* DROPDOWN */}
           </ul>
         </nav>
         <div>
           <a className="login-btn" href="https://app.mamu.sch.id">
             Aplikasi Madrasah
           </a>
-          <a className="login-btn" style={{ marginLeft: "5px" }} href="#">
+          <a
+            className="login-btn"
+            style={{ marginLeft: "5px" }}
+            href="https://apps.mamu.sch.id"
+          >
             Login
           </a>
         </div>
